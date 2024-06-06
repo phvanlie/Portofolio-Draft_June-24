@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.profile {
+    position: fixed;
+    border-radius: 12px;
+    background-color: rgb(249, 250, 251);
+    width: 400px;
+    padding: 24px;
+}
+
+.name {
+    color: #111827;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 4px;
+}
+
+.function {
+    color: #111827;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+}
+
+.localisation {
+    color: #4b5563;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.socials {
+    margin-top: 16px;
+}
+
+.socials button {
+    border-radius: 10px;
+    border-color: grey;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.summary {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    color: #111827;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.skills span{
+    margin-right: 4px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background-color: rgb(239, 241, 255);
+    padding: 4px 8px;
+    color: rgb(2, 10, 245);
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    left: 500px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 24px;
+}
+
+.title-projects {
+    color: rgb(75, 85, 99);
+    font-size: 16px;
+}
+
+.project {
+    width: 400px;
+}
+
+.title-project {
+    color: rgb(17, 24, 39);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.img-project {
+    width: 400px;
+}
+
+.link-project {
+    float: right;
+    border-radius: 10px;
+    border-color: grey;
+    background-color: transparent;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.skills-project span{
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background-color: rgb(239, 241, 255);
+    padding: 4px 8px;
+    text-align: center;
+    color: rgb(2, 10, 245);
+    font-size: 12px;
+}
+
+.description-project {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    width: 400px;
+    font-size: 14px;
+    color: rgb(75, 85, 99);
+    text-align: justify;
+    line-height: 20px;
+}
+
+
+
